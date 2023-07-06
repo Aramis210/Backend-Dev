@@ -18,9 +18,9 @@ const newOrder = async () => {
         ],
 
         back_urls: {
-            failure: '/failure',
-            pending: '/pending',
-            success: '/success'
+            failure: 'https://front-end-beige-two.vercel.app/home',
+            pending: 'https://front-end-beige-two.vercel.app/home',
+            success: 'https://front-end-beige-two.vercel.app/home'
         }
     }
     
@@ -35,5 +35,5 @@ const newOrder = async () => {
 }
 
 module.exports = {
-    newOrder
+    newOrder
 }

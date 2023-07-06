@@ -18,7 +18,7 @@ module.exports = (sequelize) => {
             }
           },
         body: {
-          type: DataTypes.STRING,
+          type: DataTypes.TEXT,
           allowNull: false,
           validate: {
             len: [10, 500] // Establece que la longitud máxima es de 500 caracteres
