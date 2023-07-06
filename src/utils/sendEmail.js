@@ -8,7 +8,7 @@ const sendNotification = async (email, full_name, rol_type) => {
 
   try {
     const token = generateConfirmationToken(email);
-    const confirmationLink = `http://localhost:3001/confirm/${token}`;
+    const confirmationLink = `https://front-end-beige-two.vercel.app/confirm/${token}`;
 
     const oAuth2Client = new google.auth.OAuth2(
       GMAIL_CLIENT_ID,
